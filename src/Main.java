@@ -9,31 +9,27 @@ public class Main {
 
         System.out.println("Aritmatika sederhana");
         Arithmetics aritmatika = new Arithmetics();
-        Scanner arit1 = new Scanner(System.in);
+        Scanner s = new Scanner(System.in);
         System.out.print("masukkan variabel 1 untuk ditambahkan: ");
-        int x = arit1.nextInt();
-        Scanner arit2 = new Scanner(System.in);
+        int x = s.nextInt();
         System.out.print("masukkan variabel 2 untuk ditambahkan: ");
-        int y = arit2.nextInt();
+        int y = s.nextInt();
         System.out.println("Hasil dari aritmatika pertambahan: " + aritmatika.Addition(x,y));
         System.out.println();
 
         System.out.println("Membuat Segitiga");
         Triangle segitiga = new Triangle();
-        Scanner row = new Scanner(System.in);
         System.out.print("masukkan jumlah baris untuk membuat segitiga: ");
-        int rows = row.nextInt();
+        int rows = s.nextInt();
         segitiga.Create(rows);
         System.out.println();
 
         System.out.println("Ganjil/Genap");
-        Scanner a = new Scanner(System.in);
         System.out.print("masukkan angka pertama: ");
-        int intA = a.nextInt();
+        int intA = s.nextInt();
 
-        Scanner b = new Scanner(System.in);
         System.out.print("masukkan angka kedua: ");
-        int intB = b.nextInt();
+        int intB = s.nextInt();
 
         OddEven gangen = new OddEven();
         System.out.print("hasil dari penjumlahan merupakan angka: ");
