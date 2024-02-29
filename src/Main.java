@@ -28,9 +28,24 @@ public class Main {
 
         System.out.print("masukkan angka kedua: ");
         int intB = s.nextInt();
+        System.out.println();
 
         OddEven gangen = new OddEven();
         System.out.print("hasil dari penjumlahan merupakan angka: ");
         System.out.println(gangen.Determine(intA,intB));
+        System.out.println();
+
+        System.out.print("masukkan jumlah n: ");
+        int n = s.nextInt();
+
+        Modulus mod = new Modulus(n);
+        AlignNumber number = new AlignNumber(n);
+
+        System.out.println("Hasil deret bilangan habis dibagi 3 tapi tidak habis dibagi 2 sebanyak "+n+ " bilangan adalah:");
+        mod.printNumber();
+        System.out.println();
+        System.out.println();
+
+        System.out.println("Hasil penjumlahan deret bilangan 1+2+3+...+n: "+ number.getResult());
     }
 }
