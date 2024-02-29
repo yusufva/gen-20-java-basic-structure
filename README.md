@@ -21,10 +21,10 @@ Pada Pembuatan aplikasi ini akan dibuat beberapa class yang dimana saya membuat 
 Di dalam Class Variabel berisikan beberapa variabel `a`, `b`, dan `c` yang memiliki tipe variabel yang berbeda - beda, variabel `a` memiliki tipe strings, variabel `b` memiliki tipe integer, dan variabel `c` memiliki tipe boolean. pada method yang ada pada Class Variabel ini akan melakukan print setiap variabel yang ada dan memberikan keterangan tipe variabel setiap variabel yang di print
 
 ### Arithmetics
-Di dalam Class Arithmetics berisikan sebuah method *Addition* untuk melakukan sebuah perhitungan aritmatika sederhana yaitu penjumlahan 2 buah variabel. untuk menggunakan method yang ada diharuskan memberikan inputan berupa variabel a dan b ketika memanggil method *Addition*
+Di dalam Class Arithmetics berisikan sebuah constructor *Arithmetics* untuk melakukan sebuah perhitungan aritmatika sederhana yaitu penjumlahan 2 buah variabel. untuk menggunakan class ini diharuskan memberikan inputan berupa variabel a dan b ketika memanggil class *Arithmetics*. Kemudian pengguna dapat memanggil method getResults untuk mengambil hasil dari operasi aritmatika sederhana.
 
 ### Triangle
-Di dalam Class Triangle berisikan sebuah method *Create* yang berfungsi untuk melakukan Print out character **`*`** yang akan membentuk segitiga pada terminal berdasarkan jumlah baris yang dimasukkan. Untuk menggunakan method ini pengguna diharuskan memberikan inputan berupa jumlah baris yang akan dilakukan print Triangle.
+Di dalam Class Triangle berisikan sebuah constructor *Triangle* yang berfungsi untuk melakukan Print out character **`*`** yang akan membentuk segitiga pada terminal berdasarkan jumlah baris yang dimasukkan. Untuk menggunakan Class ini pengguna diharuskan memberikan inputan berupa jumlah baris yang akan dilakukan print Triangle ketika melakukan inisialisasi object.
 
 ### OddEven
 Di dalam Class OddEven berisikan sebuah method *Determine* yang berfungsi untuk melakukan sebuah pertambahan antara 2 buah variabel dan kemudian akan memberikan return berupa strings **ganjil** / **genap**. Untuk menggunakan method ini pengguna diharuskan memberikan inputan variabel a dan b untuk dilakukan penjumlahan dan penentuan kategori bilangan yang telah dijumlahkan.
