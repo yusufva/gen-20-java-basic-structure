@@ -19,7 +19,7 @@ public class Main {
         System.out.println("Membuat Segitiga");
         System.out.print("masukkan jumlah baris untuk membuat segitiga: ");
         int rows = s.nextInt();
-        Triangle segitiga = new Triangle(rows);
+        new Triangle(rows);
         System.out.println();
 
         System.out.println("Ganjil/Genap");
