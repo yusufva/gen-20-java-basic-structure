@@ -35,8 +35,11 @@ public class Main {
         System.out.println(gangen.Determine(intA,intB));
         System.out.println();
 
-        System.out.print("masukkan jumlah n: ");
-        int n = s.nextInt();
+        int n = 0;
+        while (n<1){
+            System.out.print("masukkan jumlah n(bilangan positif lebih dari 0): ");
+            n = s.nextInt();
+        }
 
         Modulus mod = new Modulus(n);
         AlignNumber number = new AlignNumber(n);
