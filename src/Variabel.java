@@ -1,5 +1,5 @@
 public class Variabel {
-    public void PrintVariabel(){
+    public static void PrintVariabel(){
         var a = "ini strings";
         var b = 100;
         var c = true;

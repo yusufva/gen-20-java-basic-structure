@@ -3,25 +3,23 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         System.out.println("Print Class Variable");
-        Variabel variabel = new Variabel();
-        variabel.PrintVariabel();
+        Variabel.PrintVariabel();
         System.out.println();
 
         System.out.println("Aritmatika sederhana");
-        Arithmetics aritmatika = new Arithmetics();
         Scanner s = new Scanner(System.in);
         System.out.print("masukkan variabel 1 untuk ditambahkan: ");
         int x = s.nextInt();
         System.out.print("masukkan variabel 2 untuk ditambahkan: ");
         int y = s.nextInt();
-        System.out.println("Hasil dari aritmatika pertambahan: " + aritmatika.Addition(x,y));
+        Arithmetics aritmatika = new Arithmetics(x,y);
+        System.out.println("Hasil dari aritmatika pertambahan: " + aritmatika.getResult());
         System.out.println();
 
         System.out.println("Membuat Segitiga");
-        Triangle segitiga = new Triangle();
         System.out.print("masukkan jumlah baris untuk membuat segitiga: ");
         int rows = s.nextInt();
-        segitiga.Create(rows);
+        Triangle segitiga = new Triangle(rows);
         System.out.println();
 
         System.out.println("Ganjil/Genap");
